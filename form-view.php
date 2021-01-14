@@ -19,8 +19,7 @@
 
 <body>
     <div class="container jumbotron">
-        <h1 class="text-center">Order food in restaurant <i class="fas fa-utensils"></i> <br /> "The Personal Ham
-            Processors"</h1>
+        <h1 class="text-center"><i class="fas fa-utensils"></i> Order food in restaurant <i class="fas fa-utensils"></i> <br /> "The Sandwich Club"</h1>
         <nav class="mb-3 mt-3">
             <ul class="nav nav-pills">
                 <li class="nav-item">
