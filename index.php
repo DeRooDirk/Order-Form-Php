@@ -125,9 +125,9 @@ function calculateDeliveryTime($delivery){
 function totalOrder($selectedProducts,$products){
   $totalOrder=0.0;
   foreach ($selectedProducts as $key => $selected) {
-    foreach ($products as $index => $producto) {
-      if ($producto['name']==$key){
-        $totalOrder=$totalOrder+$producto['price'];
+    foreach ($products as $index => $product) {
+      if ($product['name']==$key){
+        $totalOrder=$totalOrder+$product['price'];
       }
     }      
   }
